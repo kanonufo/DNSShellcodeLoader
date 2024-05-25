@@ -21,6 +21,16 @@ Para usar DNSShellcodeLoader, sigue estos pasos:
 
 3. Una vez descargada la shellcode, se validará su integridad y se ejecutará en el sistema local.
 
+
+Algunos malware conocidos han utilizado técnicas de descarga de shellcode a través de consultas DNS y técnicas de evasión y polimorfismo para eludir la detección y llevar a cabo sus actividades maliciosas. Algunos ejemplos incluyen:
+
+DNSMessenger: Este malware, descubierto en 2017, utilizaba consultas DNS para comunicarse con servidores de comando y control (C2) y descargar payloads maliciosos. Esta técnica le permitía evadir la detección y el bloqueo por parte de los sistemas de seguridad que no inspeccionaban el tráfico DNS de manera adecuada.
+
+Emotet: Emotet es un troyano bancario y un dropper de malware que ha utilizado técnicas de evasión avanzadas para evitar la detección. Entre estas técnicas se incluyen el uso de cargas útiles cifradas, el polimorfismo para cambiar constantemente su firma y la utilización de dominios generados de forma aleatoria para descargar componentes maliciosos a través de consultas DNS.
+
+TrickBot: TrickBot es un troyano bancario que ha sido utilizado en ataques dirigidos a instituciones financieras y organizaciones empresariales. Utiliza técnicas avanzadas de evasión, incluyendo el polimorfismo para modificar su código y el uso de dominios generados de manera aleatoria para la comunicación con sus servidores C2 a través de consultas DNS.
+
+Zloader: Zloader es un troyano bancario que utiliza técnicas de evasión y polimorfismo para evitar la detección por parte de los sistemas de seguridad. Utiliza consultas DNS para la comunicación con sus servidores C2 y descarga payloads maliciosos, lo que le permite eludir los controles de seguridad que no inspeccionan el tráfico DNS de manera adecuada.
 **Nota:** Asegúrate de tener permiso para realizar pruebas de penetración y ejecutar código malicioso en sistemas antes de utilizar esta herramienta en un entorno de producción.
 
 ## Aviso legal
