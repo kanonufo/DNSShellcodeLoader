@@ -2,6 +2,8 @@
 
 DNSShellcodeLoader es una herramienta diseñada para cargar shellcode de forma remota a través de consultas DNS. Esta herramienta puede ser útil en escenarios de prueba de penetración, investigación de seguridad y desarrollo de exploits.
 
+Para el uso de esta herramienta tendras que tener conocimientos avanzados sobre programación en C#.
+
 ## Descripción
 
 La carga remota de shellcode a través de consultas DNS proporciona un método discreto y evasivo para obtener y ejecutar código malicioso en sistemas comprometidos. Esta técnica aprovecha el tráfico DNS saliente, que es común y a menudo pasa desapercibido por los sistemas de seguridad de red.
